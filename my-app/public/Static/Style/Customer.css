@@ -1,0 +1,190 @@
+/* General styles */
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.h5-L_bP_xtTbnoENcv0fSwHaEv&pid=Api&P=0&h=180");
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  /* Input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Buttons */
+  input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Button container */
+  .Btn1 {
+    border-top: 1px solid #ddd;
+  }
+  
+  .Btn1 td {
+    padding: 0;
+    border: 1px solid #ddd;
+  }
+  
+  .Btn1 tr {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Btn1 input[type="button"] {
+    margin: 5px;
+    width: 120px;
+  }
+  
+  /* Ensure the last row of buttons fits properly */
+  .Btn1 tr:last-child {
+    border-top: none;
+  }
+  
+
+
+
+
+/* css for table */
+
+     .tab {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tab table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+}
+
+.tab th, .tab td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.tab th {
+    background-color: #f2f2f2;
+}
+
+.tab td {
+    word-wrap: break-word; 
+}
+
+.tab thead th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.Header1 {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Header1 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.Header1 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Header1 td {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.Header1 input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.Header1 input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Header1 input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.Header1 tr td:nth-child(1) {
+    width: 25%;
+}
+
+.Header1 tr td:nth-child(2) {
+    width: 75%;
+}
+
+.Header1 tr:nth-child(5), .Header1 tr:nth-child(6) td {
+    width: 25%;
+}
+
+.h2d{
+    text-align: center;
+}
+  
